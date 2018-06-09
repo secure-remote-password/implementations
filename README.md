@@ -1,6 +1,6 @@
 # Compatible SRP implementations
 
-The list and unbrella issue tracker for compatible SRP impelemtations
+The list and umbrella issue tracker for compatible SRP implementations.
 
 ## The list
 
