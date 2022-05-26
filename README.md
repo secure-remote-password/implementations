@@ -10,7 +10,10 @@ The list and umbrella issue tracker for compatible SRP implementations.
 | [SRP][srp-swift] | Swift | [![Build][srp-swift-b-img]][srp-swift-b] |
 | [srp.net][srp-net] | .NET: Standard 1.6+, Framework 3.5+ | [![Version][srp-net-v-img]][srp-net-v] [![Build][srp-net-b-img]][srp-net-b] |
 | [srptools][srptools] | Python: 2, 3 | [![Version][srptools-v-img]][srptools-v] [![Build][srptools-b-img]][srptools-b] |
+| [pysrp][pysrp][^1] | Python 2, 3 | [![Version][pysrp-v-img]][pysrp-v] |
 
+
+[^1]: Compatibility with `pysrp` requires usage of `rfc5054_enable()` in that library. The library also requires padding of the generator `g` before deriving the session variables. For more details on how to workaround that with the other SRP implementations, see [srp.net/issues/19][srp-net-issue-19].
 
 ## Adding an implementation to the list
 
@@ -29,6 +32,7 @@ The list and umbrella issue tracker for compatible SRP implementations.
 [srp-net-v-img]: <https://img.shields.io/nuget/v/srp.svg>
 [srp-net-b]: <https://ci.appveyor.com/project/yallie/srp-net>
 [srp-net-b-img]: <https://img.shields.io/appveyor/ci/yallie/srp-net.svg>
+[srp-net-issue-19]: <https://github.com/secure-remote-password/srp.net/issues/19>
 
 [srptools]: <https://github.com/idlesign/srptools>
 [srptools-v]: <https://pypi.python.org/pypi/srptools>
@@ -36,3 +40,6 @@ The list and umbrella issue tracker for compatible SRP implementations.
 [srptools-b]: <https://travis-ci.org/idlesign/srptool>
 [srptools-b-img]: <https://img.shields.io/travis/idlesign/srptools/master.svg>
 
+[pysrp]: <https://github.com/cocagne/pysrp>
+[pysrp-v]: <https://pypi.python.org/pypi/srp>
+[pysrp-v-img]: <https://img.shields.io/pypi/v/srp.svg>
