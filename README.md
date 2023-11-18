@@ -11,6 +11,7 @@ The list and umbrella issue tracker for compatible SRP implementations.
 | [srp.net][srp-net] | .NET: Standard 1.6+, Framework 3.5+ | [![Version][srp-net-v-img]][srp-net-v] [![Build][srp-net-b-img]][srp-net-b] |
 | [srptools][srptools] | Python: 2, 3 | [![Version][srptools-v-img]][srptools-v] [![Build][srptools-b-img]][srptools-b] |
 | [pysrp][pysrp][^1] | Python 2, 3 | [![Version][pysrp-v-img]][pysrp-v] |
+| [Windwalker SRP][ww-github] ([PHP][ww-pkg] / [JS][ww-npm]) | PHP, JS (TS) | [![Version][ww-v-php]][ww-pkg] [![Version][ww-v-js]][ww-npm]
 
 
 [^1]: Compatibility with `pysrp` requires usage of `rfc5054_enable()` in that library. The library also requires padding of the generator `g` before deriving the session variables. For more details on how to workaround that with the other SRP implementations, see [srp.net/issues/19][srp-net-issue-19].
@@ -43,3 +44,9 @@ The list and umbrella issue tracker for compatible SRP implementations.
 [pysrp]: <https://github.com/cocagne/pysrp>
 [pysrp-v]: <https://pypi.python.org/pypi/srp>
 [pysrp-v-img]: <https://img.shields.io/pypi/v/srp.svg>
+
+[ww-github]: <https://github.com/windwalker-io/srp>
+[ww-pkg]: <https://packagist.org/packages/windwalker/srp>
+[ww-npm]: <https://www.npmjs.com/package/@windwalker-io/srp>
+[ww-v-php]: <https://img.shields.io/packagist/v/windwalker/srp.svg>
+[ww-v-js]: <https://img.shields.io/npm/v/%40windwalker-io/srp.svg>
