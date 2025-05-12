@@ -38,8 +38,8 @@ The list and umbrella issue tracker for compatible SRP implementations.
 [srptools]: <https://github.com/idlesign/srptools>
 [srptools-v]: <https://pypi.python.org/pypi/srptools>
 [srptools-v-img]: <https://img.shields.io/pypi/v/srptools.svg>
-[srptools-b]: <https://travis-ci.org/idlesign/srptool>
-[srptools-b-img]: <https://img.shields.io/travis/idlesign/srptools/master.svg>
+[srptools-b]: <https://github.com/idlesign/srptools/actions/workflows/ci.yaml>
+[srptools-b-img]: <https://github.com/idlesign/srptools/actions/workflows/ci.yaml/badge.svg?event=push>
 
 [pysrp]: <https://github.com/cocagne/pysrp>
 [pysrp-v]: <https://pypi.python.org/pypi/srp>
